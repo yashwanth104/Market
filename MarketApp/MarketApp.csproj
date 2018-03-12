@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BE14782-CF28-4926-BB4C-46FF130725A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarketApp</RootNamespace>
+    <AssemblyName>MarketApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v15.1" />
+    <Reference Include="DevExpress.Data.v15.1" />
+    <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.1" />
+    <Reference Include="DevExpress.Sparkline.v15.1.Core" />
+    <Reference Include="DevExpress.XtraBars.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.1" />
+    <Reference Include="Interop.ADODB">
+      <HintPath>..\..\..\temporRary\temporRary\obj\x86\Debug\Interop.ADODB.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="commiditiesadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="commiditiesadd.Designer.cs">
+      <DependentUpon>commiditiesadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="custmreceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="custmreceipt.Designer.cs">
+      <DependentUpon>custmreceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerFrm.Designer.cs">
+      <DependentUpon>CustomerFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FarmerFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FarmerFrm.Designer.cs">
+      <DependentUpon>FarmerFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FarmerPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FarmerPayment.Designer.cs">
+      <DependentUpon>FarmerPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FINDform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINDform.Designer.cs">
+      <DependentUpon>FINDform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pattientryfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pattientryfrm.Designer.cs">
+      <DependentUpon>Pattientryfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="commiditiesadd.resx">
+      <DependentUpon>commiditiesadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="custmreceipt.resx">
+      <DependentUpon>custmreceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerFrm.resx">
+      <DependentUpon>CustomerFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FarmerFrm.resx">
+      <DependentUpon>FarmerFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FarmerPayment.resx">
+      <DependentUpon>FarmerPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINDform.resx">
+      <DependentUpon>FINDform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pattientryfrm.resx">
+      <DependentUpon>Pattientryfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grd1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\661044c8ed8f690c9eb85c406067864e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FARME.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patti1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FAme.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Customer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cus.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegetables-variety.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

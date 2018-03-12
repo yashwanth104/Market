@@ -1,0 +1,16 @@
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\bin\Debug\MarketApp.exe
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\bin\Debug\MarketApp.pdb
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.csprojResolveAssemblyReference.cache
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.Form1.resources
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.Properties.Resources.resources
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.GenerateResource.Cache
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.exe
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.pdb
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.exe.licenses
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.CustomerFrm.resources
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.Pattientryfrm.resources
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.commiditiesadd.resources
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.FarmerFrm.resources
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.FarmerPayment.resources
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.FINDform.resources
+C:\Users\Yashwanth\Desktop\MarketApp\MarketApp\MarketApp\obj\Debug\MarketApp.custmreceipt.resources
